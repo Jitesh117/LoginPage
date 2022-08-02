@@ -37,23 +37,23 @@ class LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 //Hello again
-                SizedBox(height: 25),
-                Icon(
+                const SizedBox(height: 25),
+                const Icon(
                   Icons.android,
                   color: Colors.pink,
                   size: 100,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 75,
                 ),
-                Text(
+                const Text(
                   'Hello again!',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 36,
                   ),
                 ),
-                Text(
+                const Text(
                   'Welcome back, you\'ve been missed!',
                   style: TextStyle(
                     fontSize: 22,
