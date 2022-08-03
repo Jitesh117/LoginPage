@@ -67,7 +67,7 @@ class RegisterPageState extends State<RegisterPage> {
                   ),
                 ),
                 const Text(
-                  'Register below! with your details!',
+                  'Register below with your details!',
                   style: TextStyle(
                     fontSize: 22,
                   ),
